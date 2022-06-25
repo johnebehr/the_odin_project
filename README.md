@@ -7,6 +7,6 @@
 ### [The Odin Project](https://www.theodinproject.com)
 
 ### Learning Path: Full Stack Javascript
-- Project 01: [Sign-Up Form](https://johnebehr.github.io/the_odin_project//project-01/index.html)
+- Project 01: [Sign-Up Form](https://johnebehr.github.io/the_odin_project/project-01/index.html)
     - Objective: Layout an Odin Project sign-up form to demonstrate knowlege of HTML and CSS.
 
