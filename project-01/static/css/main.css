@@ -97,3 +97,11 @@ button {
     text-decoration-color: orangered;
     color: rgba(250, 235, 215, 1.0)
 }
+
+#attribution p {
+    font-size: .55em;
+}
+
+#attribution a {
+    color: rgba(250, 235, 215, 0.55)
+}
