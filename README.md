@@ -1,2 +1,9 @@
-# the_odin_project
-Code repo for coursework files related to The Odin Project
+<div style="text-align:center">
+<h1>The Odin Project</h1>
+<h2>Code repository for coursework related to The Odin Project</h2>
+</div>
+<hr style="border: 3px solid #393e46; width:70%; margin:0 auto;">
+
+### [The Odin Project](https://www.theodinproject.com)
+
+### Learning Path: Full Stack Javascript
