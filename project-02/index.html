@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Reset browser formatting -->
+    <link rel="stylesheet" href="./static/css/reset.css">
+    <!-- https://icons8.com/line-awesome -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <!-- Main stylesheet for page -->
+    <link rel="stylesheet" href="./static/css/main.css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <main class="dashboard">
+        <section class="nav">            
+            <h1 id="page-title">
+                <i class="las la-toolbox la-fw" id="toolbox"></i>
+                Dashboard
+            </h1>
+            <article class="nav-first" id="nav-top-menu">
+                <ul class="nav-list">
+                    <li><i class="las la-home la-fw" id="go-home-ico"></i><a href="#" id="go-home">Home</a></li>
+                    <li><i class="las la-user la-fw" id="go-profile-ico"></i><a href="#" id="go-profile">Profile</a></li>
+                    <li><i class="las la-sms la-fw" id="go-messages-ico"></i><a href="#" id="go-messages">Messages</a></li>
+                    <li><i class="las la-history la-fw" id="go-history-ico"></i><a href="#" id="go-history">History</a></li>
+                    <li><i class="las la-tasks la-fw" id="go-tasks-ico"></i><a href="#" id="go-tasks">Tasks</a></li>
+                    <li><i class="las la-users la-fw" id="go-communities-ico"></i><a href="#" id="go-communities">Communities</a></li>
+                </ul>
+            </article>
+            <article class="nav-second" id="nav-bottom-menu">
+                <ul class="nav-list">
+                    <li><i class="las la-window-restore la-fw" id="go-settings-ico"></i><a href="#" id="go-settings">Settings</a></li>
+                    <li><i class="las la-ambulance la-fw" id="go-support-ico"></i><a href="#" id="go-support">Support</a></li>
+                    <li><i class="las la-user-secret la-fw" id="go-privacy-ico"></i><a href="#" id="go-privacy">Privacy</a></li>
+                </ul>
+            </article>
+        </section>
+        <section class="header" id="page-header">
+            <article class="search-greeting" id="header-left">
+                <div class="project-search-box">
+                    <label for="project-search"><i class="las la-search la-lg"></i></label>
+                    <input class="search-box" name="project-search" type="text" placeholder="Find a Project">
+                </div>                
+                <div class="search-user-greeting-group">
+                    <i class="las la-robot la-fw search-user-avatar"></i>
+                    <p class="search-greeting">Hi there,</p>
+                    <p class="search-username">Morgan Oakley (@morgan)</p>
+                </div>
+            </article>
+            <article class="user-options" id="header-right">
+                <div class="user-options-ussername">
+                    <i class="las la-bell la-fw user-options-bell"></i>
+                    <i class="las la-robot la-fw user-options-avatar"></i>
+                    <p class="user-options-user">Morgan Oakley</p>
+                </div>                
+                <div class="user-options-buttons" id="user-actions">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+                
+            </article>
+        </section>
+        <section class="content" id="content-main">                      
+            <section class="content-projects" id="user-projects">
+                <h1>Your Projects</h1>  
+                <section class="content-projects-items">
+                    <article class="project-item">
+                        <h2>Super Cool Project</h2>
+                        <p>
+                            Fusce in leo id nisl euismod rutrum. Donec mattis faucibus 
+                            pellentesque. Vestibulum mollis finibus porttitor. Aenean 
+                            in velit a eros blandit lobortis. Nunc sollicitudin 
+                            convallis interdum. Aliquam quis risus in ex congue 
+                            efficitur. Sed in ex ac lacus faucibus feugiat. Curabitur 
+                            mollis elit non ipsum molestie, a vestibulum sapien 
+                            lobortis. Praesent at ante lobortis, efficitur eros id, 
+                            vulputate enim.
+                        </p>
+                        <div class="buttons">
+                            <button class="star"><i class="las la-thumbs-up la-fw"></i></button>
+                            <button class="view"><i class="las la-eye la-fw"></i></button>
+                            <button class="share"><i class="las la-share-alt-square la-fw"></i></button>
+                        </div>
+                        
+                    </article>
+                    <article class="project-item">
+                        <h2>Less Cool Project</h2>
+                        <p>
+                            Sed pretium, ex a dignissim fringilla, arcu erat vulputate 
+                            tellus, non porta massa lacus quis urna. Aenean id nunc 
+                            lorem. Nam metus nisi, egestas sed lacus ut, luctus 
+                            hendrerit nunc. Duis tincidunt, diam ac luctus laoreet, 
+                            dui tortor commodo turpis, vel sodales lacus nibh a velit.
+                        </p>
+                        <div class="buttons">
+                            <button class="star"><i class="las la-thumbs-up la-fw"></i></button>
+                            <button class="view"><i class="las la-eye la-fw"></i></button>
+                            <button class="share"><i class="las la-share-alt-square la-fw"></i></button>
+                        </div>
+                    </article>
+                    <article class="project-item">
+                        <h2>Easy Peasy App</h2>
+                        <p>
+                            Sed sed consectetur mauris, a ultrices est. Aenean tempor 
+                            mauris ut finibus porttitor. Nam in mi sed velit pulvinar 
+                            semper sit amet at orci. Curabitur bibendum sem et sagittis 
+                            varius. Integer nec risus dolor. Nam viverra enim urna, at 
+                            rutrum dolor aliquam eu.
+                        </p>
+                        <div class="buttons">
+                            <button class="star"><i class="las la-thumbs-up la-fw"></i></button>
+                            <button class="view"><i class="las la-eye la-fw"></i></button>
+                            <button class="share"><i class="las la-share-alt-square la-fw"></i></button>
+                        </div>
+                    </article>
+                    <article class="project-item">
+                        <h2>Ad Blocker</h2>
+                        <p>
+                            Praesent pharetra mollis nulla, ac vestibulum arcu dictum 
+                            nec. Proin maximus, nibh nec elementum malesuada, elit 
+                            quam consequat ligula, quis elementum augue sapien vitae 
+                            enim. Maecenas in tortor in elit pellentesque bibendum. In 
+                            lacinia, eros in tempor mattis, mi magna varius tortor, 
+                            ut mollis nisi ligula vel ante. Mauris non lorem eget est 
+                            tincidunt faucibus. Ut laoreet nunc vel neque rhoncus, sed 
+                            accumsan est auctor.
+                        </p>
+                        <div class="buttons">
+                            <button class="star"><i class="las la-thumbs-up la-fw"></i></button>
+                            <button class="view"><i class="las la-eye la-fw"></i></button>
+                            <button class="share"><i class="las la-share-alt-square la-fw"></i></button>
+                        </div>
+                    </article>
+                    <article class="project-item">
+                        <h2>Money Maker</h2>
+                        <p>
+                            Sed tellus tortor, finibus eget bibendum a, placerat 
+                            elementum ex. Suspendisse potenti. Aliquam laoreet justo 
+                            quis ultrices cursus. Praesent vestibulum iaculis placerat. 
+                            Vivamus varius porta nisl. Quisque et ante nisl. Nulla leo 
+                            leo, ultrices quis hendrerit in, euismod ut nisi. Curabitur 
+                            feugiat eu mauris ut luctus.
+                        </p>
+                        <div class="buttons">
+                            <button class="star"><i class="las la-thumbs-up la-fw"></i></button>
+                            <button class="view"><i class="las la-eye la-fw"></i></button>
+                            <button class="share"><i class="las la-share-alt-square la-fw"></i></button>
+                        </div>
+                    </article>
+                </section>                
+            </section>
+            <section class="content-announcements" id="news-feed">
+                <h1>Announcements</h1>
+                <section class="content-announcements-announcements">
+                    <article class="announcement-item">
+                        <h2>Site Maintenance</h2>
+                        <p>
+                            Donec at risus tincidunt, porttitor risus quis, sagittis 
+                            massa. Nulla auctor pretium venenatis. Integer ac placerat 
+                            ipsum. Ut in sapien sed odio facilisis commodo.
+                        </p>
+                        <hr>
+                    </article>
+                    <article class="announcement-item">
+                        <h2>Community Share Day</h2>
+                        <p>
+                            Pellentesque habitant morbi tristique senectus et netus et 
+                            malesuada fames ac turpis egestas. Praesent mollis, diam 
+                            vitae mollis viverra, nibh ipsum vestibulum mauris, sed 
+                            dapibus ligula magna a elit.
+                        </p>
+                        <hr>
+                    </article>
+                    <article class="announcement-item">
+                        <h2>Updated Privacy Policy</h2>
+                        <p>
+                            Curabitur pretium nibh vitae est placerat faucibus. Donec 
+                            mattis lacus tortor, a blandit sapien eleifend at. Proin 
+                            convallis mi est, in eleifend nulla faucibus eu. Quisque 
+                            malesuada pellentesque dui, nec ornare nibh bibendum non. 
+                            Mauris id magna ac leo aliquet tincidunt.
+                        </p>
+                    </article>
+                </section>                
+            </section>
+            <section class="content-trending" id="trending-users">
+                <h1>Trending</h1>
+                <section class="content-trending-items">
+                    <article class="content-trending-item">
+                        <i class="las la-robot la-fw trending-avatar"></i>
+                        <h2 class="trending-username">@tegan</h2>
+                        <p class="trending-desc">World Peace Builder</p>                        
+                    </article>
+                    <article class="content-trending-item">
+                        <i class="las la-brain la-fw trending-avatar"></i>
+                        <h2 class="trending-username">@morgan</h2>
+                        <p class="trending-desc">Super Cool Project</p>                        
+                    </article>
+                    <article class="content-trending-item">
+                        <i class="las la-atom la-fw trending-avatar"></i>
+                        <h2 class="trending-username">@kendall</h2>
+                        <p class="trending-desc">Life Changing App</p>                        
+                    </article>
+                    <article class="content-trending-item">
+                        <i class="las la-seedling la-fw trending-avatar"></i>
+                        <h2 class="trending-username">@alex</h2>
+                        <p class="trending-desc">No Traffic Maker</p>
+                        
+                    </article>
+                </section>                
+            </section>
+        </section>
+    </main>
+</body>
+</html>

@@ -9,4 +9,5 @@
 ### Learning Path: Full Stack Javascript
 - Project 01: [Sign-Up Form](https://johnebehr.github.io/the_odin_project/project-01/index.html)
     - Objective: Layout an Odin Project sign-up form to demonstrate knowlege of HTML and CSS.
-
+- Project 02: [Admin Dashboard](https://johnebehr.github.io/the_odin_project/project-02/index.html)
+    - Objective: Layout a Dashboard using CSS Grid.  
